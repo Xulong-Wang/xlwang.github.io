@@ -5,18 +5,18 @@
   
 
   
-  <title>Wavevector</title>
+  <title>Python基础操作 | Wavevector</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1title: Python基础操作 [TOC] 基础操作函数及使用：1234567def function_name([arguments]):&quot;optional documentation string&quot; #函数注释function_suiteprint (function_name__doc__)#输出函数注释（解释一类的说明）） def function中默认参数123">
+  <meta name="description" content="[TOC] 基础操作函数及使用：1234567def function_name([arguments]):&quot;optional documentation string&quot; #函数注释function_suiteprint (function_name__doc__)#输出函数注释（解释一类的说明）） def function中默认参数1234567891011121314def">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Wavevector">
+<meta property="og:title" content="Python基础操作">
 <meta property="og:url" content="http://xlwang.xyz/2020/09/25/Python-Figure/index.html">
 <meta property="og:site_name" content="Wavevector">
-<meta property="og:description" content="1title: Python基础操作 [TOC] 基础操作函数及使用：1234567def function_name([arguments]):&quot;optional documentation string&quot; #函数注释function_suiteprint (function_name__doc__)#输出函数注释（解释一类的说明）） def function中默认参数123">
+<meta property="og:description" content="[TOC] 基础操作函数及使用：1234567def function_name([arguments]):&quot;optional documentation string&quot; #函数注释function_suiteprint (function_name__doc__)#输出函数注释（解释一类的说明）） def function中默认参数1234567891011121314def">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://xlwang.xyz/2020/09/25/Python-Figure/images/马氏距离.jpg">
 <meta property="article:published_time" content="2020-09-25T09:45:07.035Z">
-<meta property="article:modified_time" content="2020-09-25T09:49:49.951Z">
+<meta property="article:modified_time" content="2020-09-25T09:53:33.377Z">
 <meta property="article:author" content="Wang Xulong">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://xlwang.xyz/2020/09/25/Python-Figure/images/马氏距离.jpg">
@@ -78,10 +78,19 @@
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Python基础操作
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title: Python基础操作</span><br></pre></td></tr></table></figure>
-<p>[TOC]</p>
+        <p>[TOC]</p>
 <h1 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h1><h2 id="函数及使用："><a href="#函数及使用：" class="headerlink" title="函数及使用："></a>函数及使用：</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">function_name</span>(<span class="params">[arguments]</span>):</span></span><br><span class="line"><span class="string">&quot;optional documentation string&quot;</span> <span class="comment">#函数注释</span></span><br><span class="line">function_suite</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> (function_name__doc__)</span><br><span class="line"><span class="comment">#输出函数注释（解释一类的说明））</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <h3 id="def-function中默认参数"><a href="#def-function中默认参数" class="headerlink" title="def function中默认参数"></a>def function中默认参数</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fn</span>(<span class="params">x,y=Ture</span>)</span></span><br><span class="line"><span class="function"># <span class="title">x</span>为必须输入参数，<span class="title">y</span>是默认参数，可输入可不输入；</span></span><br><span class="line"><span class="function">#**默认参数必须放在最后，必要输入参数需要放在最前面；</span></span><br><span class="line"><span class="function">	&quot;函数解释说明&quot;</span></span><br><span class="line"><span class="function">	<span class="title">if</span> <span class="title">y</span>:</span></span><br><span class="line">		print(x,y)</span><br><span class="line">	<span class="keyword">else</span>：</span><br><span class="line">	print(<span class="string">&#x27;only&#x27;</span>,x)</span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt;fn(<span class="number">68</span>)</span><br><span class="line"><span class="number">68</span>，<span class="literal">True</span></span><br><span class="line"></span><br><span class="line">&gt;&gt;&gt;fn(<span class="number">68</span>,<span class="literal">False</span>)</span><br><span class="line">only <span class="number">68</span></span><br></pre></td></tr></table></figure>
 <h3 id="关键字参数"><a href="#关键字参数" class="headerlink" title="关键字参数"></a>关键字参数</h3><p>关键字参数如果使用的话，最好全部参数都这么用；</p>
@@ -116,8 +125,12 @@
 <blockquote>
 <p>看到程序里读取每一行的时候，会有line.strip().split(“ ”)，这里，strip() 是为了删除开始和结尾的空格符（仅限头和尾处）；<br>后面的split(“ “) 就很重要了，它是划分这一行里的每个元素，括号里“ ”表示的是以空格作为分割符，来分割这一行的元素（不是行与行之间的分割）；<br>这里元素之间只有一个空格，如果是多个空格，则无法读取，因为空格也会成为元素，且空格无法转换成浮点型（错误如下）：ValueError: could not convert string to float:</p>
 </blockquote>
-<p>​```python<br>file=open(‘ll.txt’)<br>dataMat=[]<br>labelMat=[]<br>for line in file.readlines():<br>    curLine=line.strip().split(“\t”)<br>    floatLine=map(float,curLine)#这里使用的是map函数直接把数据转化成为float类型<br>    dataMat.append(floatLine[0:2])<br>    labelMat.append(floatLine[-1])<br>print ‘dataMat:’,dataMat<br>print ‘labelMat:’,labelMat<br>print np.shape(dataMat)<br>print np.array(dataMat)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">&gt;与空各类的间隔符相比，这里只是strip(“ ”)一项有改动：strip(&quot;\t&quot;)，也就是以制表符作为每一行内元素的分割标志。如果仍用 strip(“ ”) ，会出现如下错误：ValueError: invalid literal for float(): 1	255	547</span><br><span class="line">因为行内没有空格，所以读取了整行为一个元素：1,\t,255,\t547所以错误显示无法转换为浮点型</span><br><span class="line"></span><br><span class="line">### 读文件的三个方法read()、readline()、readlines()详解</span><br><span class="line">**关于read()方法：**</span><br><span class="line">1、读取整个文件，将文件内容放到一个字符串变量中</span><br><span class="line">2、如果文件大于可用内存，不可能使用这种处理</span><br><span class="line">**关于readline()方法：**</span><br><span class="line">1、readline()每次读取一行，比readlines()慢得多</span><br><span class="line">2、readline()返回的是一个字符串对象，保存当前行的内容</span><br><span class="line">**关于readlines()方法：**</span><br><span class="line">1、一次性读取整个文件。</span><br><span class="line">2、自动将文件内容分析成一个行的列表。</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;python</span><br><span class="line">import matplotlib.pyplot as plt#约定俗成的写法plt</span><br><span class="line"></span><br><span class="line">file&#x3D;open(&#39;0613.txt&#39;,encoding&#x3D;&#39;utf-8-sig&#39;,errors&#x3D;&quot;ignore&quot;)    </span><br><span class="line"></span><br><span class="line">fre&#x3D;[]  </span><br><span class="line">tra&#x3D;[]  </span><br><span class="line">free&#x3D;[None]*6</span><br><span class="line">traa&#x3D;[None]*6</span><br><span class="line">tr&#x3D;[None]*399</span><br><span class="line">for line in file.readlines():    </span><br><span class="line">    curline&#x3D;line.strip().split(&quot; &quot;)    </span><br><span class="line">    fre.append(curline[0]) </span><br><span class="line">    tra.append(curline[-1])</span><br><span class="line">print(len(fre))</span><br><span class="line">fre &#x3D; list(map(float, fre)) </span><br><span class="line">tra &#x3D; list(map(float, tra)) </span><br><span class="line">for i in range(0,6):</span><br><span class="line">    k1&#x3D;399*i</span><br><span class="line">    k2&#x3D;k1+399</span><br><span class="line">    free[i]&#x3D;fre[k1:k2]</span><br><span class="line">    traa[i]&#x3D;tra[k1:k2]</span><br><span class="line">for i in range(0,399):</span><br><span class="line">    tr[i]&#x3D;1-min(traa[0][i],traa[1][i],traa[2][i],traa[3][i],traa[4][i],traa[5][i])</span><br><span class="line">print(len(free))</span><br><span class="line">print(free[0])</span><br><span class="line"></span><br><span class="line">plt.xlabel(&quot;frequency&quot;)</span><br><span class="line">plt.ylabel(&quot;隔声系数&quot;)</span><br><span class="line">plt.title(&quot;2# Q&amp;U keyboard&quot;)</span><br><span class="line">plt.plot(free[0],tr,label&#x3D;&quot;02# Q keyboard 1#position&quot;,color&#x3D;&quot;red&quot;,linewidth&#x3D;2)</span><br><span class="line">#plt.plot(free[0],traa[1],&quot;b--&quot;,label&#x3D;&quot;02# U keyboard 1#position&quot;)</span><br><span class="line">#在ipython的交互环境中需要这句话才能显示出来</span><br><span class="line">plt.ylim(0,1.2)</span><br><span class="line">plt.legend()#显示左下角的图例</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">file=open(<span class="string">&#x27;ll.txt&#x27;</span>)    </span><br><span class="line">dataMat=[]  </span><br><span class="line">labelMat=[]</span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> file.readlines():    </span><br><span class="line">    curLine=line.strip().split(<span class="string">&quot;\t&quot;</span>)    </span><br><span class="line">    floatLine=map(float,curLine)<span class="comment">#这里使用的是map函数直接把数据转化成为float类型    </span></span><br><span class="line">    dataMat.append(floatLine[<span class="number">0</span>:<span class="number">2</span>]) </span><br><span class="line">    labelMat.append(floatLine[<span class="number">-1</span>])</span><br><span class="line"><span class="keyword">print</span> <span class="string">&#x27;dataMat:&#x27;</span>,dataMat</span><br><span class="line"><span class="keyword">print</span> <span class="string">&#x27;labelMat:&#x27;</span>,labelMat</span><br><span class="line"><span class="keyword">print</span> np.shape(dataMat)</span><br><span class="line"><span class="keyword">print</span> np.array(dataMat)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>与空各类的间隔符相比，这里只是strip(“ ”)一项有改动：strip(“\t”)，也就是以制表符作为每一行内元素的分割标志。如果仍用 strip(“ ”) ，会出现如下错误：ValueError: invalid literal for float(): 1    255    547<br>因为行内没有空格，所以读取了整行为一个元素：1,\t,255,\t547所以错误显示无法转换为浮点型</p>
+</blockquote>
+<h3 id="读文件的三个方法read-、readline-、readlines-详解"><a href="#读文件的三个方法read-、readline-、readlines-详解" class="headerlink" title="读文件的三个方法read()、readline()、readlines()详解"></a>读文件的三个方法read()、readline()、readlines()详解</h3><p><strong>关于read()方法：</strong><br>1、读取整个文件，将文件内容放到一个字符串变量中<br>2、如果文件大于可用内存，不可能使用这种处理<br><strong>关于readline()方法：</strong><br>1、readline()每次读取一行，比readlines()慢得多<br>2、readline()返回的是一个字符串对象，保存当前行的内容<br><strong>关于readlines()方法：</strong><br>1、一次性读取整个文件。<br>2、自动将文件内容分析成一个行的列表。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt<span class="comment">#约定俗成的写法plt</span></span><br><span class="line"></span><br><span class="line">file=open(<span class="string">&#x27;0613.txt&#x27;</span>,encoding=<span class="string">&#x27;utf-8-sig&#x27;</span>,errors=<span class="string">&quot;ignore&quot;</span>)    </span><br><span class="line"></span><br><span class="line">fre=[]  </span><br><span class="line">tra=[]  </span><br><span class="line">free=[<span class="literal">None</span>]*<span class="number">6</span></span><br><span class="line">traa=[<span class="literal">None</span>]*<span class="number">6</span></span><br><span class="line">tr=[<span class="literal">None</span>]*<span class="number">399</span></span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> file.readlines():    </span><br><span class="line">    curline=line.strip().split(<span class="string">&quot; &quot;</span>)    </span><br><span class="line">    fre.append(curline[<span class="number">0</span>]) </span><br><span class="line">    tra.append(curline[<span class="number">-1</span>])</span><br><span class="line">print(len(fre))</span><br><span class="line">fre = list(map(float, fre)) </span><br><span class="line">tra = list(map(float, tra)) </span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">6</span>):</span><br><span class="line">    k1=<span class="number">399</span>*i</span><br><span class="line">    k2=k1+<span class="number">399</span></span><br><span class="line">    free[i]=fre[k1:k2]</span><br><span class="line">    traa[i]=tra[k1:k2]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,<span class="number">399</span>):</span><br><span class="line">    tr[i]=<span class="number">1</span>-min(traa[<span class="number">0</span>][i],traa[<span class="number">1</span>][i],traa[<span class="number">2</span>][i],traa[<span class="number">3</span>][i],traa[<span class="number">4</span>][i],traa[<span class="number">5</span>][i])</span><br><span class="line">print(len(free))</span><br><span class="line">print(free[<span class="number">0</span>])</span><br><span class="line"></span><br><span class="line">plt.xlabel(<span class="string">&quot;frequency&quot;</span>)</span><br><span class="line">plt.ylabel(<span class="string">&quot;隔声系数&quot;</span>)</span><br><span class="line">plt.title(<span class="string">&quot;2# Q&amp;U keyboard&quot;</span>)</span><br><span class="line">plt.plot(free[<span class="number">0</span>],tr,label=<span class="string">&quot;02# Q keyboard 1#position&quot;</span>,color=<span class="string">&quot;red&quot;</span>,linewidth=<span class="number">2</span>)</span><br><span class="line"><span class="comment">#plt.plot(free[0],traa[1],&quot;b--&quot;,label=&quot;02# U keyboard 1#position&quot;)</span></span><br><span class="line"><span class="comment">#在ipython的交互环境中需要这句话才能显示出来</span></span><br><span class="line">plt.ylim(<span class="number">0</span>,<span class="number">1.2</span>)</span><br><span class="line">plt.legend()<span class="comment">#显示左下角的图例</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
 
 
 
@@ -129,6 +142,7 @@
      &#123;\sqrt&#123;\displaystyle \sum^n_&#123;k=1&#125;x_&#123;1k&#125;^2&#125;\sqrt&#123;\displaystyle \sum^n_&#123;k=1&#125;x_&#123;2k&#125;^2&#125;&#125;$  </code></pre>
 </li>
 </ol>
+<p>```</p>
 
       
     </div>
@@ -152,9 +166,9 @@
     </a>
   
   
-    <a href="/2020/09/25/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/09/25/Markdown-Manual/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">Typora的Markdown语法</div>
     </a>
   
 </nav>
@@ -191,7 +205,7 @@
       <ul>
         
           <li>
-            <a href="/2020/09/25/Python-Instruments/">(no title)</a>
+            <a href="/2020/09/25/Python-Instruments/">Pyvisa</a>
           </li>
         
           <li>
@@ -199,7 +213,11 @@
           </li>
         
           <li>
-            <a href="/2020/09/25/Python-Figure/">(no title)</a>
+            <a href="/2020/09/25/Python-Figure/">Python基础操作</a>
+          </li>
+        
+          <li>
+            <a href="/2020/09/25/Markdown-Manual/">Typora的Markdown语法</a>
           </li>
         
           <li>
